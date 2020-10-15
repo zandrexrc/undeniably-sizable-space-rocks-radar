@@ -1,0 +1,15 @@
+.centered {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .app {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }

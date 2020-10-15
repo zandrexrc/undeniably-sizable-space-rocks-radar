@@ -1,0 +1,50 @@
+{
+    "name": "undeniably-sizable-space-rocks-radar",
+    "version": "1.0.0",
+    "author": {
+        "name": "Zandrex Camagon",
+        "email": "zandrexrc@gmail.com",
+        "url": "https://zandrexrc.me/"
+    },
+    "private": true,
+    "dependencies": {
+        "@material-ui/core": "latest",
+        "@material-ui/icons": "latest",
+        "@testing-library/jest-dom": "^4.2.4",
+        "@testing-library/react": "^9.5.0",
+        "@testing-library/user-event": "^7.2.1",
+        "clsx": "latest",
+        "core-js": "latest",
+        "cross-fetch": "latest",
+        "moment": "latest",
+        "prop-types": "latest",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "react-redux": "latest",
+        "react-scripts": "^3.4.3",
+        "redux": "^4.0.0",
+        "redux-thunk": "latest",
+        "typescript": "latest"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
