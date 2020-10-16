@@ -5,7 +5,7 @@ import { Link, Typography } from '@material-ui/core';
 const useStyles = makeStyles(theme => ({
     root: {
         width: 'calc(100% - 40px)',
-        padding: '20px',
+        padding: '20px 20px 80px 20px',
         display: 'flex',
         flexFlow: 'column nowrap',
         justifyContent: 'center',
