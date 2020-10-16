@@ -1,9 +1,7 @@
 # Undeniably Sizable Space Rocks Radar (USSRR)
 
-In April 2018, the [B612 Foundation](https://en.wikipedia.org/wiki/B612_Foundation) 
-reported that "it is 100 percent certain we'll be hit [by a devastating asteroid], 
-but we're not 100 percent sure when". 
-[[source]](https://www.inquisitr.com/4881237/earth-will-be-hit-by-an-asteroid-with-100-percent-certainty-says-space-watching-group-b612/)   
+In April 2018, the [B612 Foundation][b612-link] 
+reported that ["It is 100 percent certain we'll be hit [by a devastating asteroid], but we're not 100 percent sure when"][quote-src]. 
 
 So is today the big day?   
 Is today finally the day the Earth gets *d'asteroid*? (Get it? *destroyed* lmao)   
@@ -35,3 +33,6 @@ under the MIT License.
 ### Why
 No particular reason tbh. I was just browsing through NASA's list of APIs and 
 the idea just struck me.
+
+[b612-link]: https://en.wikipedia.org/wiki/B612_Foundation
+[quote-src]: https://www.inquisitr.com/4881237/earth-will-be-hit-by-an-asteroid-with-100-percent-certainty-says-space-watching-group-b612/
