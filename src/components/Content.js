@@ -9,7 +9,7 @@ const useStyles = makeStyles(theme => ({
     root: {
         width: 'calc(100% - 40px)',
         minHeight: 'calc(100vh - 100px)',
-        padding: '50px 20px',
+        padding: '40px 20px',
         display: 'flex',
         flexFlow: 'column nowrap',
         justifyContent: 'center',

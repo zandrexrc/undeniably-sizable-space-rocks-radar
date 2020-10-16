@@ -26,15 +26,17 @@ const Footer = () => {
             </Typography>
             <Typography gutterBottom>
                 <Link href="https://api.nasa.gov/" target="_blank" className="link">
-                APOD and Asteroids NeoWs from NASA APIs
+                    APOD and Asteroids NeoWs from NASA APIs
                 </Link>
             </Typography>
             <Typography variant="body1">
                 Designed by:
             </Typography>
-            <Link href="https://zandrexrc.me" target="_blank" className="link">
-               Zandrex Camagon
-            </Link>
+            <Typography gutterBottom>
+                <Link href="https://zandrexrc.me" target="_blank" className="link">
+                    Zandrex Camagon
+                </Link>
+            </Typography>
         </div>
     );
 }

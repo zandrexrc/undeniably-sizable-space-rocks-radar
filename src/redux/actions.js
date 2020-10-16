@@ -2,7 +2,7 @@ import fetch from 'cross-fetch';
 import moment from 'moment';
 
 const API_KEY = process.env.REACT_APP_NASA_API_KEY || 'DEMO_KEY';
-const TODAY = moment().format("YYYY-MM-DD");
+const TODAY = moment().format('YYYY-MM-DD');
 
 export const toggleIsFetching = status => ({
     type: "TOGGLE_IS_FETCHING",
@@ -24,7 +24,7 @@ export function getCoverImage() {
         if (!getState().isFetching) {
             dispatch(toggleIsFetching(true));
             try {
-                const res = await fetch(`https://api.nasa.gov/planetary/apod?date=${TODAY}&api_key=${API_KEY}`);
+                const res = await fetch(`https://api.nasa.gov/planetary/apod?api_key=${API_KEY}`);
                 const payload = await res.json();
 
                 if (payload.error) {
@@ -61,7 +61,7 @@ export function getAsteroidsData() {
         if (!getState().isFetching) {
             dispatch(toggleIsFetching(true));
             try {
-                const res = await fetch(`https://api.nasa.gov/neo/rest/v1/feed?start_date=${TODAY}&end_date=${TODAY}&api_key=${API_KEY}`);
+                const res = await fetch(`https://api.nasa.gov/neo/rest/v1/feed?start_date=${TODAY}&end_date=${TODAY}&detailed=true&api_key=${API_KEY}`);
                 const payload = await res.json();
 
                 if (payload.error || payload.error_message) {

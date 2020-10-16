@@ -24,8 +24,7 @@ const useStyles = makeStyles(theme => ({
         "& .apodLink": {
             width: 'auto',
             display: 'inline-flex',
-            position: 'absolute',
-            bottom: '20px',
+            marginTop: '40px',
         }
     }
 }));
