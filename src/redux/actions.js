@@ -33,8 +33,8 @@ export function getCoverImage() {
 
                 let imageUrl = "";
                 if (payload.media_type === "image") {
-                    // Get HD version of APOD
-                    imageUrl = payload.hdurl;
+                    // Get HD version of APOD if possible
+                    imageUrl = payload.hdurl ? payload.hdurl : payload.url;
                 } else {
                     // Fallback to an existing image if APOD is not available
                     imageUrl = "https://apod.nasa.gov/apod/image/2010/RhoAntares_Abolfath_3000.jpg";

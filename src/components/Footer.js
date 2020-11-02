@@ -10,9 +10,11 @@ const useStyles = makeStyles(theme => ({
         flexFlow: 'column nowrap',
         justifyContent: 'center',
         alignItems: 'center',
-        background: 'linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7))',
+        background: 'linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 50%, rgba(0, 0, 0, 1))',
         color: theme.palette.text.primary,
         textAlign: 'center',
+        position: 'relative',
+        zIndex: 2,
     }
 }));
 

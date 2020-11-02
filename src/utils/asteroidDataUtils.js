@@ -23,16 +23,19 @@ export const getCloseApproachDate = data => {
 
 // Returns the minimum and maximum estimated diameter of the asteroid (in kilometers)
 export const getEstimatedDiameter = data => {
-    return `${data.estimated_diameter.kilometers.estimated_diameter_min.toFixed(2)} km - ` + 
-           `${data.estimated_diameter.kilometers.estimated_diameter_max.toFixed(2)} km`;
+    const min = data.estimated_diameter.kilometers.estimated_diameter_min.toFixed(2);
+    const max = data.estimated_diameter.kilometers.estimated_diameter_max.toFixed(2);
+    return `${parseFloat(min).toLocaleString()} km - ${parseFloat(max).toLocaleString()} km`;
 };
 
 // Returns the relative velocity (measured in kilometers per hour)
 export const getRelativeVelocity = data => {
-    return `${parseFloat(data.close_approach_data[0].relative_velocity.kilometers_per_hour).toFixed(2)} km/h`
+    const v = parseFloat(data.close_approach_data[0].relative_velocity.kilometers_per_hour).toFixed(2);
+    return `${parseFloat(v).toLocaleString()} km/h`;
 };
 
 // Returns the miss distance (in km)
 export const getMissDistance = data => {
-    return `${parseFloat(data.close_approach_data[0].miss_distance.kilometers).toFixed(2)} km`
+    const s = parseFloat(data.close_approach_data[0].miss_distance.kilometers).toFixed(2);
+    return `${parseFloat(s).toLocaleString()} km`;
 };

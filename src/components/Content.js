@@ -15,8 +15,8 @@ const useStyles = makeStyles(theme => ({
         justifyContent: 'center',
         alignItems: 'center',
         background: 'rgba(0, 0, 0, 0.7)',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
+        position: 'relative',
+        zIndex: 2,
         color: theme.palette.text.primary,
         "& .MuiList-root": {
             minWidth: '16em',

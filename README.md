@@ -19,7 +19,7 @@ USSRR is an app for discovering undeniably sizable space rocks (aka. asteroids)
 that are orbiting a little too close to our beloved home planet.
 
 ### Where
-Check out the demo [here](https://ussrr-zandrexrc.netlify.app/).
+Click [here](https://ussrr-zandrexrc.netlify.app/).
 
 ### How
 This app is made possible by [NASA APIs](https://api.nasa.gov/). 
@@ -33,6 +33,7 @@ under the MIT License.
 ### Why
 No particular reason tbh. I was just browsing through NASA's list of APIs and 
 the idea just struck me.
+> Why the name? I like acronyms.
 
 [b612-link]: https://en.wikipedia.org/wiki/B612_Foundation
 [quote-src]: https://www.inquisitr.com/4881237/earth-will-be-hit-by-an-asteroid-with-100-percent-certainty-says-space-watching-group-b612/

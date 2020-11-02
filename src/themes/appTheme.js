@@ -5,9 +5,9 @@ appTheme.palette = {
     ...appTheme.palette,
     type: "dark",
     primary: {
-        light: '#df78ef',
-        main: '#ab47bc',
-        dark: '#790e8b',
+        light: '#ee98fb',
+        main: '#ba68c8',
+        dark: '#883997',
         contrastText: '#fff'
     },
     text: {

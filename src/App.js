@@ -4,6 +4,7 @@ import { ThemeProvider } from '@material-ui/core/styles';
 import { CircularProgress, Typography } from '@material-ui/core';
 import { Cover } from './components/Cover';
 import { Content } from './components/Content';
+import { Image } from './components/Image';
 import { Footer } from './components/Footer';
 import { appTheme } from './themes/appTheme';
 import './App.css';
@@ -37,7 +38,8 @@ function App() {
       }
       {
         dataIsLoaded && !error &&
-        <div className="app" style={{backgroundImage: `url(${coverImage})`}}>
+        <div>
+          <Image coverImage={coverImage} />
           <Cover 
             coverImage={coverImage} 
             numAsteroids={asteroidsData.element_count} 

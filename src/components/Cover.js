@@ -14,10 +14,11 @@ const useStyles = makeStyles(theme => ({
         flexFlow: 'column nowrap',
         justifyContent: 'center',
         alignItems: 'center',
-        background: 'linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0))',
+        background: 'linear-gradient(to top, rgba(0, 0, 0, 0.7) 50%, rgba(0, 0, 0, 0))',
         textAlign: 'center',
-        color: theme.palette.text.primary,
         position: 'relative',
+        zIndex: 2,
+        color: theme.palette.text.primary,
         "& .description": {
             marginTop: '40px',
         },
